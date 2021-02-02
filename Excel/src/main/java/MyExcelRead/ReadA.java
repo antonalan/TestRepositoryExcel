@@ -46,7 +46,7 @@ public class ReadA {
 		Row r=sh.getRow(i);
 		Cell c=r.getCell(j);
 		int celltype =c.getCellType(); 
-	  //System.out.println(celltype);  
+	  System.out.println(celltype);  
 		switch(celltype)
 		{
 		case Cell.CELL_TYPE_NUMERIC:
@@ -65,9 +65,5 @@ public class ReadA {
 
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	
 }
