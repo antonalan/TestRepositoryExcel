@@ -17,6 +17,7 @@ public class ReadB {
 		  
 		  String value=e1.readData(i,j);
 		  System.out.println(value);
+				  System.out.println("Test message");
 			 }
 		 }
 
